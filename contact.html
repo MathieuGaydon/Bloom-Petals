@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Voici la boutique BloomPetals">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&family=Indie+Flower&family=Londrina+Sketch&family=Overpass:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&family=Delius&family=Indie+Flower&family=Londrina+Sketch&family=Overpass:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Bebas+Neue&family=Indie+Flower&family=Londrina+Sketch&family=Overpass:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+</head>
+<main>
+    <header>
+        <nav>
+            <div class="marge">
+                <a href="index.html" style="text-decoration: none;"><p>Home</p></a>
+                <a href="entreprise.html" style="text-decoration: none;"><p>Entreprise</p></a>
+                <a href="realisations.html" style="text-decoration: none;"><p>Réalisations</p></a>
+                <p>Contact</p>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <body>
+        <div class="container">
+            <h4>Contactez-nous</h4>
+            <form action="#" method="POST">
+                <label for="civilite">Civilité:</label>
+                <select id="civilite" name="civilite" required>
+                    <option value="" disabled selected>Choisissez...</option>
+                    <option value="mr">Monsieur</option>
+                    <option value="mme">Madame</option>
+                </select>
+    
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+    
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom" required>
+    
+                <label for="adresse">Adresse postale:</label>
+                <textarea id="adresse" name="adresse" rows="4" required></textarea>
+
+                <label for="adresse">Votre demande :</label>
+                <textarea id="adresse" name="adresse" rows="4" required></textarea>
+    
+                <div class="checkbox">
+                    <input type="checkbox" id="politique" name="politique" required>
+                    <label for="politique">J'accepte la politique de confidentialité</label>
+                </div>
+    
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    
+    </body>
+    <footer>
+        <p>© Tous droits réservés Mathieu Gaydon 2024</p>
+    </footer>
+</main>
+</html>

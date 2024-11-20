@@ -1,0 +1,264 @@
+.marge {
+    background-color: rgb(187, 224, 20);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal; 
+}
+/*pour la barre de recherche*/
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   } 
+/*les textes*/
+h1{
+    text-align: center;
+    
+        font-family: "Indie Flower", cursive;
+        font-weight: 400;
+        font-style: normal;
+      color: rgb(255, 215, 151);
+      font-size:350%;
+      
+}
+#intro{
+    text-align: center;
+        font-family: "Delius", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+.img1{
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+img{
+    width:200px ;
+    height:145px ;
+    border-radius: 25%;
+}
+}
+
+/*Les service proposées*/
+.service{
+    background-color: rgb(195, 245, 244);
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+.card{
+    text-align: center;
+
+h2{
+    color: rgb(171, 109, 17);
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style : normal;
+
+p{
+    font-family: "Delius", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: small;
+            }
+        }
+    }
+}
+
+.img2{
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+img{
+    width:200px ;
+    height:145px ;
+    border-radius: 25%; 
+    }
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+/*mosaique*/
+
+.mosaique{
+    width: 1000px;
+    max-width: 100%;
+    margin:0 auto;
+    column-count: 6;
+    column-gap: 15px;
+}
+
+.mosaique img{
+    display: block;
+    width:100%  ;
+    height:auto ;
+    border-radius: 25%;
+    margin: 0 0 15px 0;
+    transition: 0.2 ease-in-out;
+    filter: grayscale(100);
+}
+
+.mosaique img:hover{
+    transform: scale(0.9);
+    filter: grayscale(0);
+
+}
+
+@media(max-width:767px) {
+    .mosaique{
+        column-count:2 ;
+    }
+    .mosaique img{
+        object-fit: cover;
+        height: 180px;
+    }
+}
+/*entreprise*/
+.entreprise{
+    background-color: rgb(195, 245, 244);
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+h3{
+    color: rgb(171, 109, 17);
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style : normal;
+
+p{
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+        }
+    } 
+}
+.entreprise{
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+img{
+   
+    width:200px ;
+    height:145px ;
+    border-radius: 25%;
+}
+}
+/* contact*/
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    text-align: center;
+        font-family: "Spicy Rice", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+
+        font-family: "Mansalva", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
